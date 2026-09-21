@@ -8,10 +8,10 @@ module.exports = {
   port: process.env.PORT || 3000,
 
   // Secret untuk menandatangani JWT
-  jwtSecret: 'process.emv.JML_SECRET',
+  jwtSecret: process.emv.JML_SECRET,
 
   // API key payment gateway (palsu)
-  paymentGatewayApiKey: 'process.emv.PAYMENY_GATEWAY_API_KEY',
+  paymentGatewayApiKey: process.emv.PAYMENY_GATEWAY_API_KEY,
 
   // Pengaturan default aplikasi
   defaultSettings: {
